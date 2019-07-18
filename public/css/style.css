@@ -1,0 +1,174 @@
+* {box-sizing: border-box}
+
+body {
+    margin: 60px;
+
+}
+
+
+.view-container{
+
+  display: block;
+}
+
+.view-container.hidden {
+  display: none;
+}
+
+.navlist.hidden {
+  display: none;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: flex;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* .navlist {
+    display:none;
+} */
+
+
+
+
+.form{
+    background-color: white;
+    opacity: 0.8;
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid black;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  /* padding: 14px 20px; */
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  /* width: 50%; */
+  opacity: 0.9;
+}
+
+
+button:hover {
+  opacity:0.5;
+}
+
+
+.footer {
+  position: fixed;
+  opacity: 0.8;
+  height: 1.5em;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+/* 
+Clear floats */
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+
+/* Bordered form */
+form {
+    border: 1px solid black;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    padding-top: 16px;
+  }
+
+  .col-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    max-width: 31%;
+    }
+  
+    /* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+  .col-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+    }
+  }
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+  
